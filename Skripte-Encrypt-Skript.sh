@@ -94,10 +94,10 @@ clear
 	echo "$(tput setaf 2)"
 	figlet -f slant -c $SCRIPTNAME
 	echo $rot
-	echo "Mit dem Ausführen Akzeptieren Sie die Lizenz."
+	echo "Mit dem Ausführen Akzeptieren Sie die Lizenz von LofentBlack.de/Licence."
 	echo "$(tput sgr0)"
 
-	echo "Bitte gebe Sie den Namen der Datei ein die Sie Verschlüsseln möchten!"
+	echo "Bitte gebe Sie den Namen der Datei ein, die Sie Verschlüsseln möchten!"
 	read -p "" DATEI
 
 	if [ -s ./$DATEI ]; then
@@ -107,15 +107,15 @@ clear
 			echo "$(tput setaf 2)"
 			figlet -f slant -c $SCRIPTNAME
 			echo $rot
-			echo "Mit dem Ausführen Akzeptieren Sie die Lizenz."
+			echo "Mit dem Ausführen Akzeptieren Sie die Lizenz von LofentBlack.de/Licence."
 			echo "$(tput sgr0)"
-			echo "Bitte gebe Sie den Namen der Datei ein den Sie Verschlüsseln möchten!"
+			echo "Bitte gebe Sie den Namen der Datei ein, den Sie Verschlüsseln möchten!"
 			echo "$DATEI"
 		if [ -s $DATEI.x.c ]; then
 			rm -r $DATEI.x.c
 			echo "Erfolgreich abgeschlossen!"
 		else
-			echo "Ein Fehler ist Aufgetreten die Datei hat möglicherweise kein Anfang FehlerCode(02)"
+			echo "Ein Fehler ist aufgetreten  die Datei hat möglicherweise kein Anfang FehlerCode(02)"
 		fi
 	else
 		echo "Die Datei ist nicht in dem Verzeichnis oder falsch geschrieben. FehlerCode(01)"
