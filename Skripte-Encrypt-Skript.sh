@@ -113,12 +113,12 @@ clear
 			echo "$DATEI"
 		if [ -s $DATEI.x.c ]; then
 			rm -r $DATEI.x.c
-			echo "Abgeschlossen!"
+			echo "Erfolgreich abgeschlossen!"
 		else
 			echo "Ein Fehler ist Aufgetreten die Datei hat möglicherweise kein Anfang FehlerCode(02)"
 		fi
 	else
-		echo "Die Datei ist nicht in dem Verzeichnis oder Falsch Geschrieben. FehlerCode(01)"
+		echo "Die Datei ist nicht in dem Verzeichnis oder falsch geschrieben. FehlerCode(01)"
 	fi
 
 
