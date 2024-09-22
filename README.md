@@ -1,13 +1,13 @@
 ## Schnellanleitung ##
 
-```wget https://raw.githubusercontent.com/lofentblack/Teamspeak-3-Skript/refs/heads/main/Teamspeak3-Skript.sh```
+```wget https://raw.githubusercontent.com/lofentblack/Skripte-Encrypt-Skript/refs/heads/main/Skripte-Encrypt-Skript.sh```
 
-```chmod 775 Teamspeak3-Skript.sh```
+```chmod 775 Skripte-Encrypt-Skript.sh```
 
-```./Teamspeak3-Skript.sh```
+```./Skripte-Encrypt-Skript.sh```
 
 
-## Teamspeak-Server-Verwaltungsskript ##
+## Skripte-Encryptungsskript ##
 
 Dieses Shell-Skript dient zur Vereinfachung der Verwaltung von Prozessen.
 
