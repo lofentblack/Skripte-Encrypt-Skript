@@ -6,10 +6,12 @@
 
 ```./Skripte-Encrypt-Skript.sh```
 
+<img src="https://i.ibb.co/7SBCxRR/lock.png" alt="lock" border="0">
 
 ## Skripte-Encryptungsskript ##
 
-Dieses Shell-Skript dient zur Vereinfachung der Verwaltung von Prozessen.
+Mit diesem Shell-Skript kann man ganz einfach seine eigenen Shell-Dateien verschlüsseln.<br>
+(.sh -> .x)
 
 
 ## Installation ##
