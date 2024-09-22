@@ -39,11 +39,11 @@ if ! [[ $version == $SkriptVersion ]]; then
 
 	echo $(tput setaf 3)"Update von Version "$SkriptVersion" zu "$version"."
 	echo "$(tput sgr0)"
-	wget https://raw.githubusercontent.com/lofentblack/Skripte-Encrypt-Skript/refs/heads/main/Skripte-Encrypt-Skript.sh -O Skripte-Encrypt-Skript-new.sh
+	wget https://raw.githubusercontent.com/lofentblack/Skripte-Encrypt-Skript/refs/heads/main/Skripte-Encrypt-Skript.sh -O Skripte-Encrypt-Skript.new.sh
 	rm $LOCK
-	chmod 775 Skripte-Encrypt-Skript.sh
+	chmod 775 Skripte-Encrypt-Skript.new.sh
 	rm Skripte-Encrypt-Skript.sh
-	mv Skripte-Encrypt-Skript.x Skripte-Encrypt-Skript.x
+	mv Skripte-Encrypt-Skript.new.sh Skripte-Encrypt-Skript.sh
 
 fi
 }
